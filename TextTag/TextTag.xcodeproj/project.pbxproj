@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0C464B831BB7066F00929E9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C464B821BB7066F00929E9B /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0C464B851BB72DAD00929E9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C464B841BB72DAD00929E9B /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		0C668B321BB6F11D00AB446D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B311BB6F11D00AB446D /* AppDelegate.swift */; };
 		0C668B341BB6F11D00AB446D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B331BB6F11D00AB446D /* FirstViewController.swift */; };
 		0C668B361BB6F11D00AB446D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B351BB6F11D00AB446D /* SecondViewController.swift */; };
 		0C668B391BB6F11D00AB446D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C668B371BB6F11D00AB446D /* Main.storyboard */; };
-		0C668B3B1BB6F11D00AB446D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C668B3A1BB6F11D00AB446D /* Images.xcassets */; };
 		0C668B3E1BB6F11D00AB446D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C668B3C1BB6F11D00AB446D /* LaunchScreen.xib */; };
 		0C668B4A1BB6F11E00AB446D /* TextTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B491BB6F11E00AB446D /* TextTagTests.swift */; };
 /* End PBXBuildFile section */
@@ -29,13 +29,13 @@
 
 /* Begin PBXFileReference section */
 		0C464B821BB7066F00929E9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0C464B841BB72DAD00929E9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C668B2C1BB6F11D00AB446D /* TextTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C668B301BB6F11D00AB446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C668B311BB6F11D00AB446D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C668B331BB6F11D00AB446D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		0C668B351BB6F11D00AB446D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0C668B381BB6F11D00AB446D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C668B3A1BB6F11D00AB446D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C668B3D1BB6F11D00AB446D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C668B431BB6F11E00AB446D /* TextTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C668B481BB6F11E00AB446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				0C668B351BB6F11D00AB446D /* SecondViewController.swift */,
 				0C668B371BB6F11D00AB446D /* Main.storyboard */,
 				0C464B821BB7066F00929E9B /* LoginViewController.swift */,
-				0C668B3A1BB6F11D00AB446D /* Images.xcassets */,
+				0C464B841BB72DAD00929E9B /* Images.xcassets */,
 				0C668B3C1BB6F11D00AB446D /* LaunchScreen.xib */,
 				0C668B2F1BB6F11D00AB446D /* Supporting Files */,
 			);
@@ -199,9 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C464B851BB72DAD00929E9B /* Images.xcassets in Resources */,
 				0C668B391BB6F11D00AB446D /* Main.storyboard in Resources */,
 				0C668B3E1BB6F11D00AB446D /* LaunchScreen.xib in Resources */,
-				0C668B3B1BB6F11D00AB446D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
