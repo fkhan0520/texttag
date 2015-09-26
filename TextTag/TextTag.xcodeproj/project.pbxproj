@@ -159,6 +159,7 @@
 		0C668B241BB6F11D00AB446D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Julie Rodriguez";
 				TargetAttributes = {
@@ -415,6 +416,7 @@
 				0C668B4F1BB6F11E00AB446D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C668B501BB6F11E00AB446D /* Build configuration list for PBXNativeTarget "TextTagTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +425,7 @@
 				0C668B521BB6F11E00AB446D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
