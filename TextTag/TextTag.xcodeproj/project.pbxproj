@@ -15,6 +15,8 @@
 		0C668B3B1BB6F11D00AB446D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C668B3A1BB6F11D00AB446D /* Images.xcassets */; };
 		0C668B3E1BB6F11D00AB446D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C668B3C1BB6F11D00AB446D /* LaunchScreen.xib */; };
 		0C668B4A1BB6F11E00AB446D /* TextTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B491BB6F11E00AB446D /* TextTagTests.swift */; };
+		FBBDDB261BB726CF00721123 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDDB251BB726CF00721123 /* KeyboardViewController.swift */; };
+		FBBDDB2A1BB726CF00721123 /* TextTag Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBBDDB231BB726CF00721123 /* TextTag Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +27,28 @@
 			remoteGlobalIDString = 0C668B2B1BB6F11D00AB446D;
 			remoteInfo = TextTag;
 		};
+		FBBDDB281BB726CF00721123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C668B241BB6F11D00AB446D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBDDB221BB726CF00721123;
+			remoteInfo = "TextTag Keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBBDDB2E1BB726CF00721123 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBBDDB2A1BB726CF00721123 /* TextTag Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C464B821BB7066F00929E9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +63,9 @@
 		0C668B431BB6F11E00AB446D /* TextTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C668B481BB6F11E00AB446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C668B491BB6F11E00AB446D /* TextTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTagTests.swift; sourceTree = "<group>"; };
+		FBBDDB231BB726CF00721123 /* TextTag Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TextTag Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBDDB251BB726CF00721123 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		FBBDDB271BB726CF00721123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBBDDB201BB726CF00721123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +98,7 @@
 			children = (
 				0C668B2E1BB6F11D00AB446D /* TextTag */,
 				0C668B461BB6F11E00AB446D /* TextTagTests */,
+				FBBDDB241BB726CF00721123 /* TextTag Keyboard */,
 				0C668B2D1BB6F11D00AB446D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +108,7 @@
 			children = (
 				0C668B2C1BB6F11D00AB446D /* TextTag.app */,
 				0C668B431BB6F11E00AB446D /* TextTagTests.xctest */,
+				FBBDDB231BB726CF00721123 /* TextTag Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +153,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBBDDB241BB726CF00721123 /* TextTag Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FBBDDB251BB726CF00721123 /* KeyboardViewController.swift */,
+				FBBDDB271BB726CF00721123 /* Info.plist */,
+			);
+			path = "TextTag Keyboard";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,10 +172,12 @@
 				0C668B281BB6F11D00AB446D /* Sources */,
 				0C668B291BB6F11D00AB446D /* Frameworks */,
 				0C668B2A1BB6F11D00AB446D /* Resources */,
+				FBBDDB2E1BB726CF00721123 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FBBDDB291BB726CF00721123 /* PBXTargetDependency */,
 			);
 			name = TextTag;
 			productName = TextTag;
@@ -156,6 +202,23 @@
 			productReference = 0C668B431BB6F11E00AB446D /* TextTagTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FBBDDB221BB726CF00721123 /* TextTag Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBDDB2D1BB726CF00721123 /* Build configuration list for PBXNativeTarget "TextTag Keyboard" */;
+			buildPhases = (
+				FBBDDB1F1BB726CF00721123 /* Sources */,
+				FBBDDB201BB726CF00721123 /* Frameworks */,
+				FBBDDB211BB726CF00721123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextTag Keyboard";
+			productName = "TextTag Keyboard";
+			productReference = FBBDDB231BB726CF00721123 /* TextTag Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +235,9 @@
 					0C668B421BB6F11E00AB446D = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 0C668B2B1BB6F11D00AB446D;
+					};
+					FBBDDB221BB726CF00721123 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -190,6 +256,7 @@
 			targets = (
 				0C668B2B1BB6F11D00AB446D /* TextTag */,
 				0C668B421BB6F11E00AB446D /* TextTagTests */,
+				FBBDDB221BB726CF00721123 /* TextTag Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +273,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C668B411BB6F11E00AB446D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBDDB211BB726CF00721123 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,6 +308,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBBDDB1F1BB726CF00721123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBDDB261BB726CF00721123 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -241,6 +323,11 @@
 			isa = PBXTargetDependency;
 			target = 0C668B2B1BB6F11D00AB446D /* TextTag */;
 			targetProxy = 0C668B441BB6F11E00AB446D /* PBXContainerItemProxy */;
+		};
+		FBBDDB291BB726CF00721123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBDDB221BB726CF00721123 /* TextTag Keyboard */;
+			targetProxy = FBBDDB281BB726CF00721123 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TextTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HackGt.$(PRODUCT_NAME:rfc1034identifier)";
@@ -364,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TextTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HackGt.$(PRODUCT_NAME:rfc1034identifier)";
@@ -407,6 +496,31 @@
 			};
 			name = Release;
 		};
+		FBBDDB2B1BB726CF00721123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "TextTag Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackGt.TextTag.TextTag-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBBDDB2C1BB726CF00721123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TextTag Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackGt.TextTag.TextTag-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,6 +550,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FBBDDB2D1BB726CF00721123 /* Build configuration list for PBXNativeTarget "TextTag Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBDDB2B1BB726CF00721123 /* Debug */,
+				FBBDDB2C1BB726CF00721123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
