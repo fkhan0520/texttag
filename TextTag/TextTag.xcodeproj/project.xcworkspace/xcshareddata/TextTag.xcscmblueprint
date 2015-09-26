@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73E1386B2C9BA77862CFC848BBDF2AAC96AC2DDD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C65AA45220511E0E2C7A0CE8C1BD16245AAF7085" : 0,
+    "73E1386B2C9BA77862CFC848BBDF2AAC96AC2DDD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E25BA31E-E325-4B87-B24D-134EB0F0FCA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C65AA45220511E0E2C7A0CE8C1BD16245AAF7085" : "",
+    "73E1386B2C9BA77862CFC848BBDF2AAC96AC2DDD" : "texttag\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextTag",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextTag\/TextTag.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fkhan0520\/texttag.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73E1386B2C9BA77862CFC848BBDF2AAC96AC2DDD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.gatech.edu\/marketsim\/webapplication.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C65AA45220511E0E2C7A0CE8C1BD16245AAF7085"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="TextTag_Keyboard" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
@@ -97,9 +97,6 @@
                             </segments>
                             <color key="tintColor" red="0.4549019608" green="0.89411764709999997" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         </segmentedControl>
-                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kL3-DS-WBa">
-                            <rect key="frame" x="58" y="44" width="255" height="600"/>
-                        </scrollView>
                     </subviews>
                     <color key="backgroundColor" red="0.1450980392" green="0.63921568630000003" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
@@ -108,6 +105,11 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kL3-DS-WBa">
+            <rect key="frame" x="0.0" y="0.0" width="255" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="453" y="328"/>
+        </scrollView>
     </objects>
     <resources>
         <image name="add@1x" width="66" height="66"/>
