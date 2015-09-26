@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C464B831BB7066F00929E9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C464B821BB7066F00929E9B /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		0C464B851BB72DAD00929E9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C464B841BB72DAD00929E9B /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		0C464B891BB7532800929E9B /* textTag.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C464B881BB7532800929E9B /* textTag.xib */; settings = {ASSET_TAGS = (); }; };
 		0C668B321BB6F11D00AB446D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B311BB6F11D00AB446D /* AppDelegate.swift */; };
 		0C668B341BB6F11D00AB446D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B331BB6F11D00AB446D /* FirstViewController.swift */; };
 		0C668B361BB6F11D00AB446D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C668B351BB6F11D00AB446D /* SecondViewController.swift */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		0C464B821BB7066F00929E9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0C464B841BB72DAD00929E9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C464B881BB7532800929E9B /* textTag.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = textTag.xib; sourceTree = "<group>"; };
 		0C668B2C1BB6F11D00AB446D /* TextTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C668B301BB6F11D00AB446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C668B311BB6F11D00AB446D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				FBBDDB251BB726CF00721123 /* KeyboardViewController.swift */,
 				FBBDDB271BB726CF00721123 /* Info.plist */,
+				0C464B881BB7532800929E9B /* textTag.xib */,
 			);
 			path = "TextTag Keyboard";
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C464B891BB7532800929E9B /* textTag.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +562,7 @@
 				FBBDDB2C1BB726CF00721123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
